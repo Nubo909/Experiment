@@ -40,7 +40,7 @@ body.mobile .caption{display:none}
 .phone{position:relative;width:416px;height:874px;border-radius:40px;overflow:hidden;background:#0b0b0c;isolation:isolate;direction:rtl;user-select:none;-webkit-user-select:none;--accent:#024FBC;--soft:color-mix(in srgb,var(--accent) 7%,#fff);transition:--accent .45s;flex:none}
 body.mobile .phone{border-radius:0}
 body.mobile .status,body.mobile .homebar{display:none}
-body.mobile .nav{height:auto;padding-bottom:calc(10px + env(safe-area-inset-bottom))}
+body.mobile .nav{height:auto;padding-bottom:max(8px, calc(env(safe-area-inset-bottom) - 18px))}
 #safeProbe{position:fixed;top:0;left:0;width:0;height:0;padding-top:env(safe-area-inset-top);visibility:hidden;pointer-events:none}
 .bg{position:absolute;inset:0;opacity:0}
 #bg0{background:linear-gradient(180deg,#1984fc 198px,#47d0f9 237px,#a5e8fc 274px,#fff 336px)}
