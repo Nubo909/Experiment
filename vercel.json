@@ -1,5 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/", "destination": "/qnb-cards-prototype/index.html" }
-  ]
-}
